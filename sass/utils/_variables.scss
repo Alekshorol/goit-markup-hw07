@@ -1,0 +1,36 @@
+:root {
+  --primary-text-color: #757575;
+  --second-text-color: #212121;
+  --title-text-color: #2196f3;
+  --white-color: #ffffff;
+  --studio-color: #000000;
+  --background-color-hero-roof: #2f303a;
+  --background-color-team: #f5f4fa;
+  --mail-tel-color: rgba(117, 117, 117, 1);
+  --list-color: rgba(255, 255, 255, 0.6);
+  --backgroun-color-button: #f5f4fa;
+  --line-color-header: rgba(236, 236, 236, 1);
+  --border-color-portfolio: #eeeeee;
+  --shadov-color-team: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  --set-line-px: 30px;
+  --gradient-hero: rgba(47, 48, 58, 0.4);
+  --background-hero: rgba(196, 196, 196, 1);
+  --background-color-advetges: rgba(245, 244, 250, 1);
+  --social-color: rgba(175, 177, 184, 1);
+  --background-social-footer: rgba(255, 255, 255, 0.1);
+  --color-transition: cubic-bezier(0.4, 0, 0.2, 1);
+  --cards-background-color: rgba(33, 150, 243, 0.9);
+  --work-discription-bcg: rgba(47, 48, 58, 0.8);
+  --backdrop-background: rgba(0, 0, 0, 0.5);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}

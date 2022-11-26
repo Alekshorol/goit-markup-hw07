@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #757575;
   --second-text-color: #212121;
   --title-text-color: #2196f3;
@@ -23,11 +23,11 @@
   --cards-background-color: rgba(33, 150, 243, 0.9);
   --work-discription-bcg: rgba(47, 48, 58, 0.8);
   --backdrop-background: rgba(0, 0, 0, 0.5);
-}
+} */
 
 /* utilite */
 
-.list {
+/* .list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -35,9 +35,9 @@
 
 .link {
   text-decoration: none;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -48,9 +48,9 @@
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -62,11 +62,11 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-}
+} */
 
 /* buttons */
 
-.button {
+/* .button {
   font-family: roboto;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -104,19 +104,19 @@ body {
   background-color: var(--title-text-color);
   color: var(--white-color);
   box-shadow: var(--shadov-color-team);
-}
+} */
 
 .page-header {
   border-bottom: 1px solid var(--line-color-header);
 }
 
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 .container-hero {
   width: 1600px;
@@ -125,10 +125,10 @@ body {
   margin-right: auto;
 }
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 .logo {
   color: var(--title-text-color);
