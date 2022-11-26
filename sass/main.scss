@@ -3,6 +3,7 @@
 @import "./utils/variables";
 @import "./utils/visually-hidden";
 @import "./utils/placeholders";
+@import "./utils/mixins";
 
 //base
 @import "./base/base";
@@ -22,5 +23,6 @@
 @import "./components/team-socials";
 @import "./components/company";
 @import "./components/footer";
-@import "./components/btn-portfolio.scss";
 @import "./components/card-set";
+@import "./components/backdrop";
+@import "./components/modal";

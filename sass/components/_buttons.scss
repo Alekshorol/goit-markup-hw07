@@ -37,6 +37,15 @@
     box-shadow: var(--shadov-color-team);
   }
 }
+
+.button__projects {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-basis: calc((100% - 32px) / 5);
+  margin-bottom: 50px;
+}
+
 .button-telegram {
   width: 200px;
   height: 50px;
@@ -56,7 +65,31 @@
   color: var(--white-color);
 }
 
-.submit-telegram {
-  margin-left: 10px;
-  vertical-align: middle;
+.button-modal-close {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+
+  top: 8px;
+  right: 8px;
+
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  background-color: var(--white-color);
+  cursor: pointer;
+  fill: var(--studio-color);
+  transition: fill 250ms var(--color-transition);
+
+  padding: 0;
+
+  &:hover,
+  &:focus {
+    fill: var(--title-text-color);
+  }
 }
