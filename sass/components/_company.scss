@@ -1,0 +1,47 @@
+.company {
+  @extend %section;
+}
+
+.company-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.companies-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: var(--social-color);
+  transition: border-color 250ms var(--color-transition);
+
+  &:hover,
+  &:focus {
+    border-color: var(--title-text-color);
+  }
+}
+
+.companies-icon {
+  fill: var(--social-color);
+  transition: fill 250ms var(--color-transition);
+
+  .companies-link:hover &,
+  .companies-link:focus & {
+    fill: var(--title-text-color);
+  }
+}

@@ -2,6 +2,7 @@
 
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+@import "./utils/placeholders";
 
 //base
 @import "./base/base";
@@ -11,3 +12,15 @@
 @import "./components/section";
 @import "./components/container";
 @import "./components/buttons";
+@import "./components/header";
+@import "./components/navigation";
+@import "./components/logo";
+@import "./components/hero";
+@import "./components/advantages";
+@import "./components/work";
+@import "./components/team";
+@import "./components/team-socials";
+@import "./components/company";
+@import "./components/footer";
+@import "./components/btn-portfolio.scss";
+@import "./components/card-set";

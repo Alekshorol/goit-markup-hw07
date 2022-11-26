@@ -1,0 +1,7 @@
+.button__projects {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-basis: calc((100% - 32px) / 5);
+  margin-bottom: 50px;
+}

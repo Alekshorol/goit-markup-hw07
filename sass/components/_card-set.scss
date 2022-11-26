@@ -1,0 +1,81 @@
+.project-image {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.cards-link {
+  display: block;
+
+  box-shadow: transparent;
+  transition: box-shadow 250ms var(--color-transition);
+}
+
+.cards-link:focus,
+.cards-link:hover {
+  box-shadow: var(--shadov-color-team);
+}
+
+.card-images {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.text-card {
+  display: block;
+  position: absolute;
+  padding: 63px 24px;
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 1.56;
+
+  transform: translateY(101%);
+  color: var(--white-color);
+  background-color: var(--cards-background-color);
+  transition: transform 250ms var(--color-transition),
+    color 250ms var(--color-transition),
+    background-color 250ms var(--color-transition);
+}
+
+.cards-link:hover .text-card,
+.cards-link:focus .text-card {
+  transform: translateY(0);
+}
+
+/* card */
+
+.card-set {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--set-line-px));
+  margin-left: calc(-1 * var(--set-line-px));
+}
+
+.card-set > .items {
+  flex-basis: calc(100% / 3 - var(--set-line-px));
+  margin-left: var(--set-line-px);
+  margin-top: var(--set-line-px);
+}
+
+.card-thumb {
+  border: 1px solid var(--border-color-portfolio);
+  border-top: none;
+  padding: 20px 24px;
+}

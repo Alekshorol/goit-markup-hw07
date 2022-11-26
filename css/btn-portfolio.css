@@ -1,0 +1,12 @@
+.button__projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 8px;
+  -ms-flex-preferred-size: calc((100% - 32px) / 5);
+      flex-basis: calc((100% - 32px) / 5);
+  margin-bottom: 50px;
+}/*# sourceMappingURL=btn-portfolio.css.map */

@@ -37,3 +37,26 @@
     box-shadow: var(--shadov-color-team);
   }
 }
+.button-telegram {
+  width: 200px;
+  height: 50px;
+  background-color: var(--title-text-color);
+
+  border-color: transparent;
+  border-radius: 4px;
+  margin-left: 12px;
+  padding: 0;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  letter-spacing: 0.06em;
+
+  color: var(--white-color);
+}
+
+.submit-telegram {
+  margin-left: 10px;
+  vertical-align: middle;
+}
