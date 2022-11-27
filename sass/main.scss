@@ -16,13 +16,16 @@
 @import "./components/header";
 @import "./components/navigation";
 @import "./components/logo";
-@import "./components/hero";
-@import "./components/advantages";
-@import "./components/work";
-@import "./components/team";
-@import "./components/team-socials";
-@import "./components/company";
-@import "./components/footer";
 @import "./components/card-set";
 @import "./components/backdrop";
 @import "./components/modal";
+
+//layout
+
+@import "./lay-out/hero";
+@import "./lay-out/advantages";
+@import "./lay-out/work";
+@import "./lay-out/team";
+@import "./lay-out/team-socials";
+@import "./lay-out/company";
+@import "./lay-out/footer";
